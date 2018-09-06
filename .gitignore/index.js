@@ -1,7 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "!";
-client.login("you really think i'm retard");
+const token = token.env.token
+client.login(token);
 
 
 
